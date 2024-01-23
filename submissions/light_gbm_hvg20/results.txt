@@ -1,0 +1,41 @@
+Training submissions\light_gbm_hvg20 ...
+CV fold 0
+        score  bal_acc       time
+        train     1.00  11.414501
+        valid     0.82   0.589426
+        test      0.82   0.442815
+CV fold 1
+        score  bal_acc       time
+        train     1.00  13.120904
+        valid     0.83   0.584439
+        test      0.81   0.436832
+CV fold 2
+        score  bal_acc       time
+        train     1.00  11.528165
+        valid     0.84   0.565489
+        test      0.79   0.439825
+CV fold 3
+        score  bal_acc       time
+        train     1.00  11.618922
+        valid     0.84   0.393947
+        test      0.79   0.180517
+CV fold 4
+        score  bal_acc       time
+        train     1.00  10.540807
+        valid     0.83   0.382975
+        test      0.82   0.178523
+----------------------------
+Mean CV scores
+----------------------------
+        score        bal_acc          time
+        train     1.0 +- 0.0  11.6 +- 0.83
+        valid   0.83 +- 0.01   0.5 +- 0.09
+        test   0.81 +- 0.015   0.3 +- 0.13
+----------------------------
+Bagged scores
+----------------------------
+        score  bal_acc
+        valid     0.84
+        test      0.83
+
+RAMP: 0.85	38.053162	1.361378

@@ -1,0 +1,41 @@
+Training submissions\stacking1_hvg10 ...
+CV fold 0
+        score  bal_acc       time
+        train     1.00  30.548529
+        valid     0.85   0.370011
+        test      0.82   0.489695
+CV fold 1
+        score  bal_acc       time
+        train     1.00  31.551698
+        valid     0.85   0.379949
+        test      0.81   0.192485
+CV fold 2
+        score  bal_acc       time
+        train     1.00  27.018735
+        valid     0.87   0.685169
+        test      0.81   0.451794
+CV fold 3
+        score  bal_acc       time
+        train     1.00  28.795979
+        valid     0.87   0.648269
+        test      0.84   0.452787
+CV fold 4
+        score  bal_acc       time
+        train     1.00  28.554625
+        valid     0.87   0.530584
+        test      0.83   0.449813
+----------------------------
+Mean CV scores
+----------------------------
+        score        bal_acc          time
+        train     1.0 +- 0.0  29.3 +- 1.59
+        valid   0.86 +- 0.01   0.5 +- 0.13
+        test   0.82 +- 0.011   0.4 +- 0.11
+----------------------------
+Bagged scores
+----------------------------
+        score  bal_acc
+        valid     0.87
+        test      0.83
+
+RAMP: 0.87	137.741416	1.468478

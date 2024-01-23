@@ -1,0 +1,41 @@
+Training submissions\gradient_boosting_hvg20 ...
+CV fold 0
+        score  bal_acc        time
+        train     1.00  283.008062
+        valid     0.83    0.965448
+        test      0.79    0.527559
+CV fold 1
+        score  bal_acc        time
+        train      1.0  295.894461
+        valid      0.8    0.938488
+        test       0.8    0.416886
+CV fold 2
+        score  bal_acc        time
+        train     1.00  281.424508
+        valid     0.84    0.872669
+        test      0.79    0.410942
+CV fold 3
+        score  bal_acc        time
+        train     1.00  281.699654
+        valid     0.82    0.866647
+        test      0.81    0.447802
+CV fold 4
+        score  bal_acc        time
+        train     0.99  285.126395
+        valid     0.83    0.880645
+        test      0.82    0.421873
+----------------------------
+Mean CV scores
+----------------------------
+        score        bal_acc           time
+        train   1.0 +- 0.002  285.4 +- 5.39
+        valid  0.82 +- 0.012    0.9 +- 0.04
+        test    0.8 +- 0.011    0.4 +- 0.04
+----------------------------
+Bagged scores
+----------------------------
+        score  bal_acc
+        valid     0.83
+        test      0.81
+
+RAMP: 0.84	497.091907	1.258523

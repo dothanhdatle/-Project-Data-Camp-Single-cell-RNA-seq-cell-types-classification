@@ -1,0 +1,45 @@
+PS D:\M2DS\data-camp-single-cell-scmark-classification-october-2023-blackbull> ramp-test --submission mlp
+Testing Single-cell RNA-seq cell types classification
+Reading train and test files from ./data/ ...
+Reading cv ...
+Training submissions\mlp_hvg20 ...
+CV fold 0
+        score  bal_acc      time
+        train     1.00  5.632933
+        valid     0.74  0.805846
+        test      0.74  0.405970
+CV fold 1
+        score  bal_acc      time
+        train     1.00  5.475394
+        valid     0.73  0.810834
+        test      0.76  0.404917
+CV fold 2
+        score  bal_acc      time
+        train     1.00  5.679854
+        valid     0.75  0.818764
+        test      0.77  0.404962
+CV fold 3
+        score  bal_acc      time
+        train     1.00  6.270266
+        valid     0.74  0.892571
+        test      0.75  0.496674
+CV fold 4
+        score  bal_acc      time
+        train     1.00  5.880304
+        valid     0.76  0.874625
+        test      0.75  0.413936
+----------------------------
+Mean CV scores
+----------------------------
+        score        bal_acc         time
+        train     1.0 +- 0.0  5.8 +- 0.27
+        valid  0.75 +- 0.011  0.8 +- 0.04
+        test   0.75 +- 0.009  0.4 +- 0.04
+----------------------------
+Bagged scores
+----------------------------
+        score  bal_acc
+        valid     0.76
+        test      0.78
+
+RAMP: 0.79	7.849618	1.406347

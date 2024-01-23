@@ -1,0 +1,79 @@
+# n_estimators = 100
+# CV fold 0
+#         score  bal_acc       time
+#         train     1.00  48.204859
+#         valid     0.87   0.321000
+#         test      0.86   0.195000
+# CV fold 1
+#         score  bal_acc       time
+#         train     1.00  47.519649
+#         valid     0.88   0.324001
+#         test      0.85   0.187999
+# CV fold 2
+#         score  bal_acc       time
+#         train     1.00  47.530514
+#         valid     0.90   0.330999
+#         test      0.85   0.192000
+# CV fold 3
+#         score  bal_acc       time
+#         train     1.00  45.526873
+#         valid     0.87   0.331001
+#         test      0.86   0.186998
+# CV fold 4
+#         score  bal_acc       time
+#         train     1.00  46.293941
+#         valid     0.88   0.331755
+#         test      0.87   0.190000
+# ----------------------------
+# Mean CV scores
+# ----------------------------
+#         score        bal_acc          time
+#         train     1.0 +- 0.0  47.0 +- 0.97
+#         valid  0.88 +- 0.011    0.3 +- 0.0
+#         test   0.86 +- 0.007    0.2 +- 0.0
+# ----------------------------
+# Bagged scores
+# ----------------------------
+#         score  bal_acc
+#         valid     0.90
+#         test      0.87
+######################################
+# Wth randomforest
+CV fold 0
+        score  bal_acc       time
+        train     1.00  50.347395
+        valid     0.87   0.367118
+        test      0.85   0.211990
+CV fold 1
+        score  bal_acc       time
+        train     1.00  51.764888
+        valid     0.86   0.389075
+        test      0.86   0.206000
+CV fold 2
+        score  bal_acc       time
+        train     1.00  52.157302
+        valid     0.91   0.362995
+        test      0.84   0.210001
+CV fold 3
+        score  bal_acc       time
+        train     1.00  50.049738
+        valid     0.87   0.397028
+        test      0.86   0.198000
+CV fold 4
+        score  bal_acc       time
+        train     1.00  51.940154
+        valid     0.87   0.370001
+        test      0.86   0.212001
+----------------------------
+Mean CV scores
+----------------------------
+        score        bal_acc          time
+        train   1.0 +- 0.001  51.3 +- 0.87
+        valid  0.88 +- 0.017   0.4 +- 0.01
+        test   0.86 +- 0.008   0.2 +- 0.01
+----------------------------
+Bagged scores
+----------------------------
+        score  bal_acc
+        valid     0.90
+        test      0.88

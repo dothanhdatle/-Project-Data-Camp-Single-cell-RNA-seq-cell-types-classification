@@ -1,0 +1,41 @@
+Training submissions\logistic_regression_hvg10 ...
+CV fold 0
+        score  bal_acc      time
+        train     1.00  4.590792
+        valid     0.83  0.727714
+        test      0.80  0.346047
+CV fold 1
+        score  bal_acc      time
+        train     1.00  7.952040
+        valid     0.81  0.815694
+        test      0.84  0.364583
+CV fold 2
+        score  bal_acc      time
+        train     1.00  8.563707
+        valid     0.89  0.799809
+        test      0.83  0.406845
+CV fold 3
+        score  bal_acc      time
+        train      1.0  6.894821
+        valid      0.8  0.782607
+        test       0.8  0.386818
+CV fold 4
+        score  bal_acc      time
+        train     1.00  5.870777
+        valid     0.81  0.747112
+        test      0.84  0.383056
+----------------------------
+Mean CV scores
+----------------------------
+        score        bal_acc         time
+        train   1.0 +- 0.001  6.8 +- 1.43
+        valid  0.83 +- 0.032  0.8 +- 0.03
+        test    0.82 +- 0.02  0.4 +- 0.02
+----------------------------
+Bagged scores
+----------------------------
+        score  bal_acc
+        valid     0.85
+        test      0.84
+
+RAMP: 0.85	12.543973	1.043762
